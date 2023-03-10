@@ -2,4 +2,9 @@
 <resources>
     <dimen name="dimension_16_dp">16dp</dimen>
     <dimen name="dimension_16_sp">16sp</dimen>
+    <dimen name="dimension_180dp">180dp</dimen>
+    <dimen name="cornerradious_16dp">16dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="cardelevation_16dp">16dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
 </resources>
