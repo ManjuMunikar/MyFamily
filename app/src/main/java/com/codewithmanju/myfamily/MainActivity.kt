@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                     inflateFragment(HomeFragment.newInstance())
                 }
                 R.id.nav_dashboard -> {
-                    inflateFragment(DashboardFragment.newInstance())
+                    inflateFragment(MapFragment())
                 }
                 R.id.nav_user -> {
                     inflateFragment(ProfileFragment.newInstance())

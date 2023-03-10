@@ -31,7 +31,6 @@
     </ImageView>
 
 
-
     <ImageView
         android:id="@+id/icon_three_dots"
         android:layout_width="24dp"
@@ -49,7 +48,6 @@
         app:layout_constraintTop_toBottomOf="@+id/title"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/item_member"/>
-
 
 
 

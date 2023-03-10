@@ -7,4 +7,7 @@
     <dimen name="margin_16dp">16dp</dimen>
     <dimen name="cardelevation_16dp">16dp</dimen>
     <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_16_sp">16sp</dimen>
 </resources>
