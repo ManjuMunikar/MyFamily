@@ -1,7 +1,6 @@
 package com.codewithmanju.myfamily
 
-import android.Manifest.permission.ACCESS_FINE_LOCATION
-import android.Manifest.permission.CAMERA
+import android.Manifest.permission.*
 import android.content.Intent
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
@@ -15,7 +14,8 @@ class MainActivity : AppCompatActivity() {
 
     val permissions= arrayOf(
         ACCESS_FINE_LOCATION,
-        CAMERA
+        CAMERA,
+        READ_CONTACTS
     )
     val permissionCode= 78
 
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == permissionCode) {
 
             if (allPermissionGranted()) {
-                openCamera()
+                //openCamera()
                 
             } else {
 
